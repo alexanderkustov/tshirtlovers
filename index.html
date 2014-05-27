@@ -16,40 +16,13 @@
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
     <style type="text/css">
       body {
-        padding-top: 38px;
+        padding-top: 50px;
         padding-bottom: 40px;
       }
 
-      #stickyButton
-      {
-        background:transparent;
-        height:48px;
-        left:0px;
-        position:fixed;
-        bottom:0px;
-        width:300px;
-      }
-      
+
     </style>
-    <!-- Begin Inspectlet Embed Code -->
-    <script type="text/javascript" id="inspectletjs">
-            window.__insp = window.__insp || [];
-            __insp.push(['wid', 2240718156]);
-            (function() {
-                    function __ldinsp(){var insp = document.createElement('script');
-    insp.type = 'text/javascript'; insp.async = true; insp.id =
-    "inspsync"; insp.src = ('https:' == document.location.protocol ?
-    'https' : 'http') + '://www.inspectlet.com/inspectlet.js'; var x =
-    document.getElementsByTagName('script')[0];
-    x.parentNode.insertBefore(insp, x); }
-                    if (window.attachEvent){
-                            window.attachEvent('onload', __ldinsp);
-                    }else{
-                            window.addEventListener('load', __ldinsp, false);
-                    }
-            })();
-    </script><style type="text/css"></style>
-    <!-- End Inspectlet Embed Code -->
+    
     
     
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -57,132 +30,14 @@
       <script src="/web/20140105190943/http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://t-shirtlovers.pt/assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://t-shirtlovers.pt/assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://t-shirtlovers.pt/assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="http://t-shirtlovers.pt/assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="http://web.archive.org/web/20140105190943im_/http://t-shirtlovers.pt/assets/ico/favicon.png">
-  <script>window["_GOOG_TRANS_EXT_VER"] = "1";</script></head>
+</head>
 
   <body>
-<!-- BEGIN WAYBACK TOOLBAR INSERT -->
-<script> if (window.archive_analytics) { window.archive_analytics.values['server_name']="wwwb-app19.us.archive.org";}; </script>
 
 <script type="text/javascript" src="./T-Shirt Lovers_files/disclaim-element.js"></script>
 <script type="text/javascript" src="./T-Shirt Lovers_files/graph-calc.js"></script>
 <script type="text/javascript" src="./T-Shirt Lovers_files/jquery.min.js"></script>
-<script type="text/javascript">
-//<![CDATA[
-var firstDate = 820454400000;
-var lastDate = 1420070399999;
-var wbPrefix = "/web/";
-var wbCurrentUrl = "http:\/\/t-shirtlovers.pt\/";
 
-var curYear = -1;
-var curMonth = -1;
-var yearCount = 18;
-var firstYear = 1996;
-var imgWidth = 475;
-var yearImgWidth = 25;
-var monthImgWidth = 2;
-var trackerVal = "none";
-var displayDay = "5";
-var displayMonth = "Jan";
-var displayYear = "2014";
-var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-
-function showTrackers(val) {
-	if(val == trackerVal) {
-		return;
-	}
-	if(val == "inline") {
-		document.getElementById("displayYearEl").style.color = "#ec008c";
-		document.getElementById("displayMonthEl").style.color = "#ec008c";
-		document.getElementById("displayDayEl").style.color = "#ec008c";		
-	} else {
-		document.getElementById("displayYearEl").innerHTML = displayYear;
-		document.getElementById("displayYearEl").style.color = "#ff0";
-		document.getElementById("displayMonthEl").innerHTML = displayMonth;
-		document.getElementById("displayMonthEl").style.color = "#ff0";
-		document.getElementById("displayDayEl").innerHTML = displayDay;
-		document.getElementById("displayDayEl").style.color = "#ff0";
-	}
-   document.getElementById("wbMouseTrackYearImg").style.display = val;
-   document.getElementById("wbMouseTrackMonthImg").style.display = val;
-   trackerVal = val;
-}
-function getElementX2(obj) {
-	var thing = jQuery(obj);
-	if((thing == undefined) 
-			|| (typeof thing == "undefined") 
-			|| (typeof thing.offset == "undefined")) {
-		return getElementX(obj);
-	}
-	return Math.round(thing.offset().left);
-}
-function trackMouseMove(event,element) {
-
-   var eventX = getEventX(event);
-   var elementX = getElementX2(element);
-   var xOff = eventX - elementX;
-	if(xOff < 0) {
-		xOff = 0;
-	} else if(xOff > imgWidth) {
-		xOff = imgWidth;
-	}
-   var monthOff = xOff % yearImgWidth;
-
-   var year = Math.floor(xOff / yearImgWidth);
-	var yearStart = year * yearImgWidth;
-   var monthOfYear = Math.floor(monthOff / monthImgWidth);
-   if(monthOfYear > 11) {
-       monthOfYear = 11;
-   }
-   // 1 extra border pixel at the left edge of the year:
-   var month = (year * 12) + monthOfYear;
-   var day = 1;
-	if(monthOff % 2 == 1) {
-		day = 15;
-	}
-	var dateString = 
-		zeroPad(year + firstYear) + 
-		zeroPad(monthOfYear+1,2) +
-		zeroPad(day,2) + "000000";
-
-	var monthString = prettyMonths[monthOfYear];
-	document.getElementById("displayYearEl").innerHTML = year + 1996;
-	document.getElementById("displayMonthEl").innerHTML = monthString;
-	// looks too jarring when it changes..
-	//document.getElementById("displayDayEl").innerHTML = zeroPad(day,2);
-
-	var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
-	document.getElementById('wm-graph-anchor').href = url;
-
-   //document.getElementById("wmtbURL").value="evX("+eventX+") elX("+elementX+") xO("+xOff+") y("+year+") m("+month+") monthOff("+monthOff+") DS("+dateString+") Moy("+monthOfYear+") ms("+monthString+")";
-   if(curYear != year) {
-       var yrOff = year * yearImgWidth;
-       document.getElementById("wbMouseTrackYearImg").style.left = yrOff + "px";
-       curYear = year;
-   }
-   if(curMonth != month) {
-       var mtOff = year + (month * monthImgWidth) + 1;
-       document.getElementById("wbMouseTrackMonthImg").style.left = mtOff + "px";
-       curMonth = month;
-   }
-}
-//]]>
-</script>
-
-<style type="text/css">body{margin-top:0!important;padding-top:0!important;min-width:800px!important;}#wm-ipp a:hover{text-decoration:underline!important;}</style>
-
-<script type="text/javascript">
- var wmDisclaimBanner = document.getElementById("wm-ipp");
- if(wmDisclaimBanner != null) {
-   disclaimElement(wmDisclaimBanner);
- }
-</script>
-<!-- END WAYBACK TOOLBAR INSERT -->
 
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
@@ -224,7 +79,7 @@ function trackMouseMove(event,element) {
         <div class="row" style="float:right;">
           <div class="row">
             <div class="span6">
-              <iframe src="./T-Shirt Lovers_files/45705491.html" width="520" height="315" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+              <iframe width="100%" height="360" src="//www.youtube.com/embed/F-d17uF5Ark?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -236,8 +91,7 @@ function trackMouseMove(event,element) {
     
     <div class="container">
 
-    <div id="stickyButton"><a class="fancybox fancybox.iframe" href="https://docs.google.com/spreadsheet/viewform?fromEmail=true&formkey=dGh3ZHFlSjBUSE54QWZkR21RaUdMakE6MQ" onmousedown="return changeStickyButton();"><img id="sticky_btn" class="imgclick" src="./T-Shirt Lovers_files/bt_cria_a_tua_loja.png" align="center"></a></div>
-      <center><h2 class="fancyH2">Razões para escolher a T-Shirt Lovers</h2></center>
+  <center><h2 class="fancyH2">Razões para escolher a T-Shirt Lovers</h2></center>
       <hr>
       <div class="row-fluid">
         <div class="span6">
