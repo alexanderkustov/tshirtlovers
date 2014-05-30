@@ -1,3 +1,7 @@
+*{
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
 h1,h2,h3,h4,h5,h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
@@ -11,13 +15,13 @@ padding-bottom: 40px;
 background-color: #1abc9c;
 color:white;
 }
+
 .m20{
     margin-top:100px;
     margin-bottom: 80px;
 }
 .m10{
     margin-top:10px;
-   
 }
 .great{
     padding-bottom: 80px;
@@ -30,6 +34,22 @@ color:white;
   font-weight: bolder;
   height: 50px;
 }
+
+.btn-ver{
+    background-color: #FF4500;
+    border: 1px solid #B23000;
+    border-radius: 0px;
+    color:white;
+}
+
+.btn-ver:hover{
+background-color: #B23000;
+    border: 1px solid #FF4500;
+    border-radius: 0px;
+    color:white;
+}
+
+
 footer{
     background-color: #333;
     padding-top: 40px;
