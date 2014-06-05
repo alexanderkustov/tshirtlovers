@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="animate.css">
+
+
+<style type="text/css" media="screen">
+    img{position: absolute;}
+
+    #cara{
+      top:370px;
+      left:190px;
+      animation-delay:1s;
+      -webkit-animation-delay:1s; /* Safari and Chrome */
+    }
+    #pens1{
+      top:370px;
+      left:190px;
+      animation-delay:1.4s;
+      -webkit-animation-delay:1.4s; /* Safari and Chrome */
+    }
+    #pens2{
+     top: 283px;
+left: 120px;
+      animation-delay:1.6s;
+      -webkit-animation-delay:1.6s; /* Safari and Chrome */
+    }
+    #pens3{
+     top: 340px;
+      left: 140px;
+      animation-delay:1.8s;
+      -webkit-animation-delay:1.8s; /* Safari and Chrome */
+    }
+     #grande{
+      top:20px;
+      left:130px;
+      animation-delay:2s;
+      -webkit-animation-delay:2s; /* Safari and Chrome */
+    }
+     #shirt{
+      top: 90px;
+      left: 185px;
+      animation-delay:2.2s;
+      -webkit-animation-delay:2.2s; /* Safari and Chrome */
+    }
+    #ideia{
+      top: 140px;
+      left: 260px;
+      animation-delay:2.6s;
+      -webkit-animation-delay:2.6s; /* Safari and Chrome */
+    }
+</style>
+  </head>
+  <body>
+<div class="container" style="position:absolute;">
+    <img  src="1-05.png" id="bola">
+    <img  src="1-06.png" id="cara">
+    <img  src="1-07.png" id="pens1">
+    <img  src="1-08.png" id="pens3">
+    <img  src="1-09.png" id="pens2">
+    <img  src="1-10.png" id="grande">
+    <img  src="1-11.png" id="shirt">
+    <img  src="1-12.png" id="ideia"> 
+    
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript">
+
+$('#bola').addClass('animated bounceIn');
+$('#bola').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#cara').addClass('animated bounceInUp'));
+$('#cara').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#pens1').addClass('animated fadeInUp'));
+$('#pens1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#pens2').addClass('animated fadeInUp'));
+$('#pens2').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#pens3').addClass('animated fadeInUp'));
+$('#pens3').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#grande').addClass('animated fadeInUp'));
+$('#grande').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#shirt').addClass('animated fadeInRight'));
+
+$('#shirt').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#ideia').addClass('animated flipInY '));
+
+
+
+    </script>
+  </body>
+</html>
