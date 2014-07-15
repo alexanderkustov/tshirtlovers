@@ -1,92 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="animate.css">
 
-<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<style type="text/css" media="screen">
+	html,body{height: 100%;}
+		img{position: absolute;}
 
-<link rel="stylesheet" href="animate.css">
+		#cara{
+			top:370px;
+			left:190px;
+			animation-delay:1s;
+			-webkit-animation-delay:1s; /* Safari and Chrome */
+		}
+		#pens1{
+			top:370px;
+			left:190px;
+			animation-delay:1.4s;
+			-webkit-animation-delay:1.4s; /* Safari and Chrome */
+		}
+		#pens2{
+			top: 283px;
+			left: 120px;
+			animation-delay:1.6s;
+			-webkit-animation-delay:1.6s; /* Safari and Chrome */
+		}
+		#pens3{
+			top: 340px;
+			left: 140px;
+			animation-delay:1.8s;
+			-webkit-animation-delay:1.8s; /* Safari and Chrome */
+		}
+		#grande{
+			top:20px;
+			left:130px;
+			animation-delay:2s;
+			-webkit-animation-delay:2s; /* Safari and Chrome */
+		}
+		#shirt{
+			top: 90px;
+			left: 185px;
+			animation-delay:2.2s;
+			-webkit-animation-delay:2.2s; /* Safari and Chrome */
+		}
+		#ideia{
+			top: 140px;
+			left: 260px;
+			animation-delay:2.6s;
+			-webkit-animation-delay:2.6s; /* Safari and Chrome */
+		}
+		#bola2{
+			-webkit-animation-delay:3s; /* Safari and Chrome */
+
+		}
+		#user{
+			top:270px;
+			left:150px;
+			-webkit-animation-delay:3.2s;
+		}
+		#mao1 {
+			top: 270px;
+			left: 0px;
+			-webkit-animation-delay:3.4s;
+		}
+
+		#mao2 {
+			top: 80px;
+			left: 50px;
+			-webkit-animation-delay:3.4s;
+		}
+
+		#mao3 {
+			top: 20px;
+			left: 140px;
+			-webkit-animation-delay:3.6s;
+		}
+
+		#mao4 {
+			top: 0px;
+			left: 250px;
+			-webkit-animation-delay:3.8s;
+		}
+		#mao5 {
+			top: 30px;
+			left: 320px;
+			-webkit-animation-delay:4s;
+		}
+
+		#mao6 {
+			top: 150px;
+			left: 350px;
+			-webkit-animation-delay:4.2s;
+		}
+
+		#mao7 {
+			top: 300px;
+			left: 380px;
+			-webkit-animation-delay:4.4s;
+		}
+
+		#pc{
+			top: 50px;
+			left: 80px;
+		}
+		#maorato{
+			top: 250px;
+			left: 240px;
+		}
+		#ecra{
+			top: 50px;
+			left: 80px;
+		}
+		#loja{
+			top: 50px;
+			left: 80px;
+		}
 
 
-<style type="text/css" media="screen">
-    img{position: absolute;}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img  src="1-05.png" id="bola">
+				<img  src="1-06.png" id="cara">
+				<img  src="1-07.png" id="pens1">
+				<img  src="1-08.png" id="pens3">
+				<img  src="1-09.png" id="pens2">
+				<img  src="1-10.png" id="grande">
+				<img  src="1-11.png" id="shirt">
+				<img  src="1-12.png" id="ideia"> 
+			</div>
 
-    #cara{
-      top:370px;
-      left:190px;
-      animation-delay:1s;
-      -webkit-animation-delay:1s; /* Safari and Chrome */
-    }
-    #pens1{
-      top:370px;
-      left:190px;
-      animation-delay:1.4s;
-      -webkit-animation-delay:1.4s; /* Safari and Chrome */
-    }
-    #pens2{
-     top: 283px;
-left: 120px;
-      animation-delay:1.6s;
-      -webkit-animation-delay:1.6s; /* Safari and Chrome */
-    }
-    #pens3{
-     top: 340px;
-      left: 140px;
-      animation-delay:1.8s;
-      -webkit-animation-delay:1.8s; /* Safari and Chrome */
-    }
-     #grande{
-      top:20px;
-      left:130px;
-      animation-delay:2s;
-      -webkit-animation-delay:2s; /* Safari and Chrome */
-    }
-     #shirt{
-      top: 90px;
-      left: 185px;
-      animation-delay:2.2s;
-      -webkit-animation-delay:2.2s; /* Safari and Chrome */
-    }
-    #ideia{
-      top: 140px;
-      left: 260px;
-      animation-delay:2.6s;
-      -webkit-animation-delay:2.6s; /* Safari and Chrome */
-    }
-</style>
-  </head>
-  <body>
-<div class="container" style="position:absolute;">
-    <img  src="1-05.png" id="bola">
-    <img  src="1-06.png" id="cara">
-    <img  src="1-07.png" id="pens1">
-    <img  src="1-08.png" id="pens3">
-    <img  src="1-09.png" id="pens2">
-    <img  src="1-10.png" id="grande">
-    <img  src="1-11.png" id="shirt">
-    <img  src="1-12.png" id="ideia"> 
-    
-</div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript">
-
-$('#bola').addClass('animated bounceIn');
-$('#bola').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#cara').addClass('animated bounceInUp'));
-$('#cara').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#pens1').addClass('animated fadeInUp'));
-$('#pens1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#pens2').addClass('animated fadeInUp'));
-$('#pens2').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#pens3').addClass('animated fadeInUp'));
-$('#pens3').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#grande').addClass('animated fadeInUp'));
-$('#grande').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#shirt').addClass('animated fadeInRight'));
-
-$('#shirt').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', $('#ideia').addClass('animated flipInY '));
+			<div class="col-md-6">
+				<img  src="1-05.png" id="bola2">
+				<img  src="2-01.png" id="user" >
+				<img  src="2-02.png" id="mao1">
+				<img  src="2-03.png" id="mao2">
+				<img  src="2-04.png" id="mao3">
+				<img  src="2-05.png" id="mao4">
+				<img  src="2-06.png" id="mao5">
+				<img  src="2-07.png" id="mao6">
+				<img  src="2-08.png" id="mao7"> 
+			</div>
 
 
 
-    </script>
-  </body>
+		</div>
+
+		<div class="row" style="margin-top: 600px;">
+			<div class="col-md-6">
+				<img  src="1-05.png" id="bola3">
+				<img  src="3-01.png" id="pc" >
+				<img  src="3-02.png" id="maorato">
+				<img  src="3-06.png" id="ecra">
+				<img  src="3-05.png" id="loja">
+			</div>
+
+			<div class="col-md-6">
+				<img  src="1-05.png" id="bola">
+				<img  src="3-01.png" id="pc" >
+				<img  src="3-02.png" id="maorato">
+				<img  src="3-04.png" id="ecra">
+				
+			</div>
+
+
+		</div>
+
+		<div class="row" style="margin-top: 600px;">
+			<div class="col-md-6">
+				<img  src="1-05.png" id="bola3">
+				<img  src="5-01.png" id="pc" >
+				<img  src="5-02.png" id="maorato">
+				<img  src="5-04.png" id="ecra">
+				<img  src="5-05.png" id="pc" >
+				<img  src="5-06.png" id="maorato">
+				<img  src="5-07.png" id="ecra">
+				<img  src="5-08.png" id="ecra">
+				<img  src="5-09.png" id="ecra">
+			</div>
+
+			<div class="col-md-6">
+				<img  src="1-05.png" id="bola">
+				
+				
+			</div>
+
+
+		</div>
+
+	</div>
+
+
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script type="text/javascript">
+
+		$('#bola2').addClass('animated bounceIn');
+		$('#user').addClass('animated bounceIn');
+		$('#mao1').addClass('animated bounceIn');
+		$('#mao2').addClass('animated bounceIn');
+		$('#mao3').addClass('animated bounceIn');
+		$('#mao4').addClass('animated bounceIn');
+		$('#mao5').addClass('animated bounceIn');
+		$('#mao6').addClass('animated bounceIn');
+		$('#mao7').addClass('animated bounceIn');
+		$('#mao8').addClass('animated bounceIn');
+
+
+		$('#bola').addClass('animated bounceIn');
+		$('#cara').addClass('animated bounceInUp');
+	$('#pens1').addClass('animated fadeInUp');
+	$('#pens2').addClass('animated fadeInUp');
+	$('#pens3').addClass('animated fadeInUp');
+	$('#grande').addClass('animated fadeInUp');
+		$('#shirt').addClass('animated fadeInRight');
+	$('#ideia').addClass('animated flipInY ');
+	$('#bola').addClass('animated bounceIn ');
+
+
+
+	</script>
+</body>
 </html>
