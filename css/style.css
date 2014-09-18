@@ -46,13 +46,17 @@ color:white;
 .great a:hover{color:#fff;}
 
 .great2{
-    padding-bottom: 100px;
+    padding-bottom: 0px;
     background-image: url('../img/herolovers.jpg');
     background-size: cover;
+        background-position: center center;
+
     background-attachment: fixed;
 }
 .great2 h1, .great2 h3{
   text-shadow: 0 1px 1px rgba(0,0,0,0.8);
+font-size: 60px;
+  line-height: 40px;
 }
 
 .great2 a{color:#fff;}
@@ -60,7 +64,7 @@ color:white;
 
 .btn-ghost{
     border:2px solid white;
-    border-radius: 0px;
+    
     background: transparent;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -82,7 +86,6 @@ color:white;
     background-color: #6ec49e;
     border:2px solid white;
     color:#fff;
-    border-radius: 0px;
     border-color: #6ec49e;
 }
 
