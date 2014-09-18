@@ -78,6 +78,10 @@ font-size: 60px;
     background-color: rgba(0,0,0,0.3);   
 }
 
+.mini-padding {
+    padding: 40px 0 40px;
+}
+
 .section-padding {
     padding: 90px 0 100px;
 }
@@ -87,6 +91,11 @@ font-size: 60px;
     border:2px solid white;
     color:#fff;
     border-color: #6ec49e;
+}
+
+.grey{
+    background-color: #eee;
+    color: #333;
 }
 
 .green{
