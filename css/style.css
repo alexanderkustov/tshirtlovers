@@ -46,11 +46,10 @@ color:white;
 .great a:hover{color:#fff;}
 
 .great2{
-    padding-bottom: 0px;
+    padding: 100px 0 0 0;
     background-image: url('../img/herolovers.jpg');
     background-size: cover;
-        background-position: center center;
-
+    background-position: center center;
     background-attachment: fixed;
 }
 .great2 h1, .great2 h3{
