@@ -22,6 +22,18 @@ background-color: #6ec49e;
 color:white;
 }
 
+.headingTitle{
+    line-height: 90px;
+    margin-top: 50px;
+}
+
+.headingTitle span{
+    font-size: 6rem;
+    font-weight: 900;
+    color: #6EC49E;
+    letter-spacing: -5px;
+}
+
 .m20{
     margin-top:100px;
     margin-bottom: 80px;
@@ -29,7 +41,7 @@ color:white;
 .m10{
     margin-top:10px;
 }
-.m30{
+.   {
     margin-top:20px;
 }
 .great{
@@ -106,11 +118,16 @@ font-size: 60px;
     color: #fff;
 }
 
+.textRight{text-align: right;}
+.green .headingTitle span{color: #fff;}
+
 .btn-big{
   padding-top: 15px;
   font-weight: bolder;
   height: 50px;
 }
+
+
 
 .btn-ver{
     background-color: #FF4500;
